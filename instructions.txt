@@ -1,0 +1,40 @@
+CHALLENGE: Create Server and Start Mongo DB
+
+
+1. Create a folder on your desktop, and open it with VSCode.  Inside of that folder create a
+   'backend' folder and a 'frontend' folder.  Create a dummy file in the 'frontend' folder,
+   and then change directory into the 'backend' folder.  Use the appropriate command to create
+   a 'package.json' file.
+
+2. Install Express, Mongoose, and dotenv. Check to ensure that these dependencies were installed
+   
+ 
+3. Create the file '/backend/server.js' and create your Express app.  Install 'nodemon' so that
+   it is not included in production.  Adjust the 'package.json' file to allow imports and to
+   run the 'npm run dev' command to use 'nodemon'.  Log a message that includes the localhost
+   and port (use port 5000).
+
+   Run 'npm run dev' and you should see your message in the console.
+
+
+3. Create a '/' route that will send a message of your choice to the browser that will confirm
+   that is is working.
+
+4. Create a '/"root"/.env' file.  Go to MongoDB and create a database (if you are not sure how, there
+   is a doc on the thumb drive that shows how to do it).  Get the connection string and
+   password and store it as a variable called 'MONGO_URI'.  Store the port number inside
+   of this file as well.
+
+   Use 'dotenv' to use the variables in the 'server.js' file.  Configure this variable to use
+   port 5000 from the '.env' file, or if it can't for some reason, use 4000.  This should
+   log the localhost of port 5000 (from the '.env' file if done correctly).
+
+5. Create a '/backend/config/db.js' file and write an async function that connects the MongDB
+   database.  Use a 'try/catch' to do so.  Within this function, log 'MongoDB connected:'
+   along with the MONGO_URI.
+
+   Import this into '.server.js' and ensure that it says connected when running the server.
+
+
+
+Solution: https://tinyurl.com/h2r73yw6
