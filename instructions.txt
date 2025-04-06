@@ -31,7 +31,7 @@ CHALLENGE: Create Server and Start Mongo DB
 
 5. Create a '/backend/config/db.js' file and write an async function that connects the MongDB
    database.  Use a 'try/catch' to do so.  Within this function, log 'MongoDB connected:'
-   along with the MONGO_URI.
+   along with the MONGO_URI.  Use the 'message' method and exit gracefully if there is an error.
 
    Import this into '.server.js' and ensure that it says connected when running the server.
 
