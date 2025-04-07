@@ -1,0 +1,24 @@
+CHALLENGE: Start Frontend 2
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+
+1. Install React Icons and import the following icons into the 'List' component:  
+
+   BiEditAlt
+   BsTrash
+
+   Use the following boilerplate code for the 'List' component:
+
+   <li>
+      <div className="icon_holder"></div>
+   </li>
+
+
+2. Ensure that each list item has a discernable color.  In the 'index.css' file, create the
+   hover 'pointer' effect for the icons, so that they show the pointer when hovered over.
+   
+   Page should look like Anki and the icons should have the appropriate hover effect added.
+
+
+Solution: https://tinyurl.com/4nvk4hsh
