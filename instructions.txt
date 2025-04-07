@@ -1,0 +1,26 @@
+CHALLENGE: Building Our API
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+
+1. Set up your schema.  Do this by creating '/backend/models/taskModel.js.  Inside of 
+   'taskModel.js' create a schema called 'taskSchema', and create an object for the name
+    of the task.  It should be a string, and it should be required.  Include something
+    that keeps track of the time the tasks were made as well.
+
+
+2. Go into 'server.js' and create the middleware so that you are able to parse incoming
+   requests with JSON payloads.  Also, change the app method to a 'POST' method, and create
+   the async function that creates the task.  If there is no name, have it throw a 400 error
+   stating that a 'name' has to be provided.
+
+   Use the '/api/tasks' endpoint to create a task.
+
+3. Write the code within the function to create the task.  If it's successful, return status
+   201, if it isn't, return status 500.  Wrap this in a try/catch, and test this route out
+   in Postman by creating a task.
+
+   If you get the 201 confirmation, check MongoDB, and you should see the information there.
+
+
+Solution: https://tinyurl.com/mr2x6zxm
