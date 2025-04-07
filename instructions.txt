@@ -1,0 +1,20 @@
+CHALLENGE: Delete Task
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+We will now write code to delete a task
+
+
+1. Inside of 'server.js', create an async function that will delete a task.  Ensure you use
+   the ':id' endpoint to help detect the specific task that needs deletion.  If the deletion
+   is successful, return status 200 with a message.
+
+2. The only error that can really occur in this scenario is that the product may not be there
+   or it hasn't even been created.  Return status 400 with a message of product not found in
+   this instance.
+
+3. Create a test in Postman, and delete an 'already-created' task in MongoDB by using its
+   ID provided by the database.  You've completed the challenge if you were able to do so.
+
+
+Solution: https://tinyurl.com/mr2x6zxm
