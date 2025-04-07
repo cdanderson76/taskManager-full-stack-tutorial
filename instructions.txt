@@ -2,6 +2,7 @@ CHALLENGE: Building Our API
 
 NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
 
+We will create new tasks with this lesson.
 
 1. Set up your schema.  Do this by creating '/backend/models/taskModel.js.  Inside of 
    'taskModel.js' create a schema called 'taskSchema', and create an object for the name
