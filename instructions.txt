@@ -1,12 +1,13 @@
-CHALLENGE: Get All Tasks
+CHALLENGE: Update a Task
 
 NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
 
-We will now write code to delete a task
 
+1. Create an async function that will update a task.  Return a server error of 500 (Server Error) in the
+   'try/catch', but do create a conditional statement prior to the 'try/catch' that validates the MongoDB
+   ID.  If the ID doesn't match, use error 404 ('Invalid task ID').
 
-1. Create an async function that will get all tasks.  Return a server error of 5000 if there
-   is an issue getting all of the tasks, but return 200 if it was successfull.
+2. Test out editing a task within Postman.  If it updates successfully, you have completed this challenge.
 
 
 Solution: https://tinyurl.com/mr2x6zxm
