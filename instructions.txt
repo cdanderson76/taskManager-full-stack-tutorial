@@ -1,0 +1,38 @@
+CHALLENGE: Start Frontend
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+
+1. Delete 'blah.txt', as it was only there to hold the 'frontend' folder in place. Navigate 
+   into the 'frontend' directory and create a Vite app within that same directory.
+
+2. Delete the following files:
+ 
+   App.css
+   assets
+   README.md
+
+   Delete all boilerplate code and imports that don't exist any longer.  Ensure you are able
+   to render something to the page with no styles added.
+
+3. Copy and paste the CSS styles from the CSS.txt file within the repo.  Create
+   '/src/components/List.jsx' and use the text 'LIST' to render its location.  Use the 
+   following for 'App.jsx' boilerplate code:
+
+   <main>
+      <h1 className="title">CRUD Operations</h1>
+      <form onSubmit={''} className="input_holder">
+        <input type="text" />
+        <button>Add Task</button>
+      </form>
+      <ul>
+        <List/>
+      </ul>
+    </main>
+   
+   
+   You should now see what's in Anki.
+
+
+
+Solution: https://tinyurl.com/4nvk4hsh
