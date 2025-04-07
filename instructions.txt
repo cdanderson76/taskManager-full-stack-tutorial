@@ -1,1 +1,15 @@
+CHALLENGE: Get All Tasks
 
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+We will now write code to retrieve all tasks
+
+
+1. Inside of 'server.js', create an async function that will grab all tasks from the database.  
+   Write out a 'try/catch' statement that gives an error of 500 ('Server Error').
+
+2. Create a test in Postman and test this route.  You've completed the challenge if you were 
+   able to do so.
+
+
+Solution: https://tinyurl.com/mr2x6zxm
