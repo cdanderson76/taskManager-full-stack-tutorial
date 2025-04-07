@@ -1,0 +1,12 @@
+CHALLENGE: Get All Tasks
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+We will now write code to delete a task
+
+
+1. Create an async function that will get all tasks.  Return a server error of 5000 if there
+   is an issue getting all of the tasks, but return 200 if it was successfull.
+
+
+Solution: https://tinyurl.com/mr2x6zxm
