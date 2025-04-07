@@ -1,1 +1,30 @@
+CHALLENGE: Consolidate Routes
 
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+
+1. Consolidate all of the routes by creating '/backend/routes/taskRoute.js'.  Import Express 
+   Router, ensure that you export it, and then copy/paste the routes from 'server.js' into 
+   'taskRoute.js'.
+
+
+2. Create the base route in 'server.js', and get rid of the imports that you are no longer
+   using. Import a custom named variable called 'taskRoutes' from '/routes/taskRoute.js'.
+   Back in '/routes/taskRoute.js', remove the complete URL and only use the endpoints.
+   With this change, you would now have to import 'Mongoose' and the 'Task' model.
+
+
+3. Create '/backend/controllers/taskController.js' and within the file, you are going to
+   copy/paste all of the async functions from 'taskRoute.js' and into 'taskController.js.  
+   The name of the functions will be as follows:
+
+   getTasks
+   createTask
+   editTask
+   deleteTask
+
+
+4. Check the routes again and ensure all are working
+
+
+Solution: https://tinyurl.com/mr2x6zxm
