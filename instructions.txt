@@ -1,0 +1,14 @@
+CHALLENGE: Control the Input
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+
+1. Inside of 'App.jsx' create state for the input field so that we are able to use controlled
+   elements.  You can test by console logging your input as the typing is done.
+
+2. Once you have controlled the input, set up a function that will submit the data typed in
+   for now, just ensure that you log this to the console.  Output should be similar to what
+   you see in Anki.
+
+
+Solution: https://tinyurl.com/4nvk4hsh
