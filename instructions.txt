@@ -1,0 +1,40 @@
+CHALLENGE: 
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+
+1. Create state to store the tasks.  Then create an '/src/utils/constant.js' file that 
+   houses a variable called 'baseURL', and store the localhost value of the backend server.
+   Temporarily stop the backend server to install 'axios' and then start it back up.
+
+
+2. Install 'cors' and use it in 'server.js'.  Now, Create a 'useEffect' hook in 'App.jsx', 
+   and use axios to grab the tasks from the database.  Use Postman to help you get the routes
+   synced up to what it is you want to do.
+
+   NOTE:  ENSURE THAT YOU INSTALL 'CORS' IN THE BACKEND, and INSTALL AXIOS IN THE FRONTEND
+
+   Use the 'useEffect' hook to log data from the database to the console.  It should look 
+   something like this:
+
+   {success: true, data: Array(2)}
+	data: (2) [{…}, {…}]
+	success: true
+	[[Prototype]]: Object
+
+
+3. Add a function called 'addTask' that will allow users to send new tasks to the database.
+
+   
+4. Map out the tasks in the browser. Pass an 'id' prop, and a prop called 'task' to the 'List'
+   component.
+
+   NOTE: IF YOU ARE HAVING TROUBLE, USE THE CONSOLE AND LOG YOUR WAY TO THE DATA!
+
+
+5. Pull in the props passed to the 'List' component so that we can see what is rendered on
+   the screen.  It should look something like you see in Anki.
+  
+
+
+Solution: https://tinyurl.com/4nvk4hsh
