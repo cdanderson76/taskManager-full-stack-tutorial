@@ -1,0 +1,19 @@
+CHALLENGE: Update UI and Delete
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+
+1. Create some state for updating the UI, and initalize it to 'false'.  Use this in the
+   dependency array of the 'useEffect' hook, and also pass it to the 'List' component.
+
+
+2. As of now, you can only see new items if the page is refreshed.  Update the 'addTask'
+   function to render an item as soon as it is entered.
+
+
+3. Create a function in the 'List' component that will remove a task from the page/database.
+   Ensure that you can see the instant and updated UI after an item has been deleted.
+  
+
+
+Solution: https://tinyurl.com/4nvk4hsh
