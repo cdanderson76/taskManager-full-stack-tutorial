@@ -21,10 +21,10 @@ NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
 
    <main>
       <h1 className="title">CRUD Operations</h1>
-      <form onSubmit={''} className="input_holder">
+      <div className="input_holder">
         <input type="text" />
         <button>Add Task</button>
-      </form>
+      </div>
       <ul>
         <List/>
       </ul>
