@@ -5,9 +5,9 @@ export default function App() {
   return (
     <main>
       <h1 className="title">CRUD Operations</h1>
-      <form className="input_holder">
+      <form className="input_holder" onSubmit={''}>
         <input type="text" />
-        <button>Add Task</button>
+        <button type='submit'>Add Task</button>
       </form>
       <ul>
         <List/>
