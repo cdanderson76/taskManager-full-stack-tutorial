@@ -7,7 +7,7 @@ export default function App() {
       <h1 className="title">CRUD Operations</h1>
       <form onSubmit={''} className="input_holder">
         <input type="text" />
-        <button>Add Task</button>
+        <button type='submit'>Add Task</button>
       </form>
       <ul>
         <List/>
