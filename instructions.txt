@@ -1,0 +1,29 @@
+CHALLENGE: Edit a Task
+
+NOTE: YOU WILL HAVE TO PROVIDE THE '.ENV' FILE BEFORE STARTING THIS CHALLENGE!
+
+
+1. Create state called 'updatedId' and initialize it to 'null'.  Also, create a function
+   below the 'addTask' function called 'updateMode' and pass the parameters of 'id' and 'text'
+   Set the input to text and the ID to the variable you just set up in state.
+
+   Pass the 'updateMode' function to the 'List' component.
+
+
+2. Create a click event for the 'edit' icon that triggers the 'updateMode' function in
+   'App.jsx'.  Ensure you pass in the 'id' and 'text' arguments.
+
+   NOTE: THIS FUNCTION WILL LET THE SYSTEM KNOW WHETHER OR NOT YOU ARE UPDATING SOMETHING
+
+   Create a ternary operation in which if an item has an 'updateId', change the title of the
+   button from 'Add Task' to 'Update Task' in 'App.jsx'.  Do the same for the button (if there
+   is an 'updateId', change the function to 'updateTask' (coming in next step), and if not,
+   'addTask'.
+
+
+3. Create a function called 'updateTask'.  Ensure that the input field is cleared, and the UI
+   is updated.
+
+
+
+Solution: https://tinyurl.com/4nvk4hsh
