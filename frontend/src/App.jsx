@@ -31,13 +31,13 @@ export default function App() {
   return (
     <main>
       <h1 className="title">CRUD Operations</h1>
-      <div className="input_holder">
+      <form className="input_holder" onSubmit={addTask}>
         <input type="text" 
                onChange={(e) => setInput(e.target.value)}
                value={input}
                />
-        <button onClick={addTask}>Add Task</button>
-      </div>
+        <button type='submit'>Add Task</button>
+      </form>
       <ul>
         {taskList}
       </ul>
